@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imgem de Fundo</title>
+    <style>
+        body {
+            background-image: url(image/wallpaper001.jpg);
+        }
+        div.quadrado{
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+            
+        }
+        div#q1{
+            background-color: aquamarine;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, #f47520, rgb(13, 6, 58));
+        }
+        div#q3{
+            background-image: url(image/pattern001.png);
+        }
+    </style>
+</head>
+<body> <!-- Demonstração de formas de usar image -->
+
+    <div class="quadrado" id="q1"> <!-- Nesta primeira demonstração, é usado o bcground-color -->
+
+    </div>
+    <div class="quadrado" id="q2"> <!-- Aqui, j´é utilizado um degrade entre cores-->
+        
+    </div>
+    <div class="quadrado" id="q3"><!-- Aqui usamos uma image como fundo de uma div-->
+
+    </div>
+</body>
+</html>
