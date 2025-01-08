@@ -46,18 +46,35 @@ section{
     font-family: var(--fonte3 );
     font-size: 3.5vw;
 }
+section > p{
+    padding-bottom: 2em;
+}
 section.normal{
     background-color: white;
     color: black;
 }
-section.imagem{
+section.imagem {
     background-color: rgba(34, 32, 32, 0.933);
     color: white;
+    box-shadow: inset 6px 6px 13px opx rgba(0, 0, 0, 0.642);
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem > p{
     display: inline-block;
     padding: 5px;
     background-color: #00000062;
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{
+    background-image: url(../image/blank-792125_640.jpg);
+    background-repeat: no-repeat;
+    
+}
+section#img02{
+    background-image: url(../image/insect-4489864_640.jpg);
+    background-repeat: no-repeat;
+    
 }
 footer{
     background-color: black;
